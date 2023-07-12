@@ -1,0 +1,13 @@
+
+  {
+    "name": "planetside",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd planetSide.client && npm i",
+      "setup:server": "cd planetSide && npm i",
+      "start": "node planetSide/index.js"
+    }
+  }
+  
